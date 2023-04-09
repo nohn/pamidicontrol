@@ -27,6 +27,6 @@ pamidicontrol will print to stderr all of the midi control messages it gets, so 
 
 Make sure that the names you have configured for `InputMidiName` / `OutputMidiName` actually exist.
 
-## /usr/run/XXX/pulse/dbox-socket not found
+## /usr/run/XXX/pulse/dbus-socket not found
 
 On some distributions, PulseAudio is configured without D-Bus control by default. To enable D-Bus control for PulseAudio, add `load-module module-dbus-protocol` to your PulseAudio configuration file located at `/etc/pulse/default.pa`.
